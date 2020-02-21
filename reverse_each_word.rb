@@ -1,6 +1,7 @@
 
-def reverse_each_word (arr)
-  hi = arr.split 
-  hi.collect do |item| item.reverse
+def reverse_each_word(sentence)
+  hi = sentene.split 
+ arr = hi.collect do |item| item.reverse
+ arr.join(" ")
 end
 end
